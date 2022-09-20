@@ -1,0 +1,44 @@
+{
+  "runtimes": {
+    "linux-arm": {
+      "libcapstone": {
+        "libcapstone.runtime.linux-arm": "4.0.2"
+      }
+    },
+    "linux-arm64": {
+      "libcapstone": {
+        "libcapstone.runtime.linux-arm64": "4.0.2"
+      }
+    },
+    "linux-x64": {
+      "libcapstone": {
+        "libcapstone.runtime.linux-x64": "4.0.2"
+      }
+    },
+    "linux-x86": {
+      "libcapstone": {
+        "libcapstone.runtime.linux-x86": "4.0.2"
+      }
+    },
+    "osx-arm64": {
+      "libcapstone": {
+        "libcapstone.runtime.osx-arm64": "4.0.2"
+      }
+    },
+    "osx-x64": {
+      "libcapstone": {
+        "libcapstone.runtime.osx-x64": "4.0.2"
+      }
+    },
+    "win-x64": {
+      "libcapstone": {
+        "libcapstone.runtime.win-x64": "4.0.2"
+      }
+    },
+    "win-x86": {
+      "libcapstone": {
+        "libcapstone.runtime.win-x86": "4.0.2"
+      }
+    }
+  }
+}

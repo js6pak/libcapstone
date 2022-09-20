@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+    <metadata minClientVersion="2.12">
+        <id>libcapstone.runtime.linux-x86</id>
+        <version>4.0.2</version>
+        <authors>js6pak</authors>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <license type="file">LICENSE.TXT</license>
+        <projectUrl>https://github.com/js6pak/libcapstone</projectUrl>
+        <description>linux x86 native library for libcapstone.</description>
+        <copyright>Copyright (c) 2013, COSEINC</copyright>
+        <repository type="git" url="https://github.com/capstone-engine/capstone" />
+    </metadata>
+    <files>
+        <file src="..\libcapstone\LICENSE.TXT" target="LICENSE.TXT" />
+        <file src="libcapstone.so" target="runtimes\linux-x86\native\libcapstone.so" />
+    </files>
+</package>
